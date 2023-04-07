@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.top-container{
+    background-image: url("https://media.istockphoto.com/id/1434989036/photo/two-large-group-of-dogs-looking-in-all-directions-on-purple-background.jpg?s=612x612&w=is&k=20&c=a73nUECCDu8rV4PzkKoyB68N684ohnI4cWjzCgkza9U=");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+.top-container h1{
+    color: black;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+ 
+.text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: azure;
+    width: 100%;
+    justify-content:space-between;
+    align-items:center ;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+} 
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family:cursive;
+} 
+
+
+.navbar ul li a:hover{
+    color: blue;
+}
+ 
+.navbar.active ul li a{
+    color: white;
+}
